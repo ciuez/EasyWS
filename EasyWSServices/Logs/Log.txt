@@ -1,0 +1,4 @@
+22/01/2021 14:55:58 - WebService: CliPIVA
+22/01/2021 14:55:58 - IP address: ::1
+22/01/2021 14:55:58 - P.IVA input: IT00716060967
+22/01/2021 14:55:58 - Response: {"piva":"IT00716060967","ragsoc":"2A.EFFE SRL VIA V.MONTI 8","commerciale":"Marco Invernizzi","servizi":[]}
