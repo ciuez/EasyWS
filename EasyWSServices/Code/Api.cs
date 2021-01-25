@@ -80,12 +80,11 @@ namespace EasyWSServices.Code
                     BusinessPartner bp = null;
                     SalesPerson comm = null;
                     Easy_SAP_lib.clienti.cliente_sel_from_piva(piva, ref msg, ref bp, ref comm);
-                    
+
+                    cliente_piva cliente = new cliente_piva();
+
                     if (bp != null)
                     {
-                        cliente_piva cliente = new cliente_piva();
-
-                        cliente = new cliente_piva();
                         cliente.piva = bp.FederalTaxID;
                         cliente.ragsoc = bp.CardName;
                         cliente.commerciale = comm.SalesEmployeeName;
@@ -109,9 +108,9 @@ namespace EasyWSServices.Code
                             }
                         }
                         cliente.servizi = servizi;
-
-                        _ret = new apiResponse(true, cliente);
                     }
+                    
+                    _ret = new apiResponse(true, cliente);
                     
                     Easy_SAP_lib.connessione.Disconnetti(ref msg);
                 }                

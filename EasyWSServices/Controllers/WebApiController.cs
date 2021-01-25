@@ -54,11 +54,12 @@ namespace EasyWSServices.Controllers
             apiResponse ret = Api.CliPIVA(ipAddress, piva);
             if (ret.success == true)
             {
+                cliente_piva b = new cliente_piva();
                 if (ret.response != null)
                 {
-                    cliente_piva b = ret.response;
-                    return Ok(b);
-                }                
+                    b = ret.response;
+                }
+                return Ok(b);
             }
             return Unauthorized();
         }

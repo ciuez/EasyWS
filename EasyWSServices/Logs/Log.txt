@@ -2,3 +2,27 @@
 22/01/2021 14:55:58 - IP address: ::1
 22/01/2021 14:55:58 - P.IVA input: IT00716060967
 22/01/2021 14:55:58 - Response: {"piva":"IT00716060967","ragsoc":"2A.EFFE SRL VIA V.MONTI 8","commerciale":"Marco Invernizzi","servizi":[]}
+25/01/2021 09:02:57 - WebService: CliPIVA
+25/01/2021 09:02:57 - IP address: ::1
+25/01/2021 09:02:57 - P.IVA input: IT00716060967
+25/01/2021 09:02:57 - Response: {"piva":"IT00716060967","ragsoc":"2A.EFFE SRL VIA V.MONTI 8","commerciale":"Marco Invernizzi","servizi":[]}
+25/01/2021 09:03:08 - WebService: CliPIVA
+25/01/2021 09:03:08 - IP address: ::1
+25/01/2021 09:03:08 - P.IVA input: IT007160609672
+25/01/2021 09:03:08 - Response: null
+25/01/2021 09:04:33 - WebService: CliPIVA
+25/01/2021 09:04:33 - IP address: ::1
+25/01/2021 09:04:33 - P.IVA input: IT007160609672
+25/01/2021 09:04:33 - Response: null
+25/01/2021 09:04:44 - WebService: CliPIVA
+25/01/2021 09:04:44 - IP address: ::1
+25/01/2021 09:04:44 - P.IVA input: IT00716060967
+25/01/2021 09:04:44 - Response: {"piva":"IT00716060967","ragsoc":"2A.EFFE SRL VIA V.MONTI 8","commerciale":"Marco Invernizzi","servizi":[]}
+25/01/2021 09:18:51 - WebService: CliPIVA
+25/01/2021 09:18:51 - IP address: ::1
+25/01/2021 09:18:51 - P.IVA input: IT00716060967
+25/01/2021 09:18:51 - Response: {"piva":"IT00716060967","ragsoc":"2A.EFFE SRL VIA V.MONTI 8","commerciale":"Marco Invernizzi","servizi":[]}
+25/01/2021 09:19:01 - WebService: CliPIVA
+25/01/2021 09:19:01 - IP address: ::1
+25/01/2021 09:19:01 - P.IVA input: IT007160609672
+25/01/2021 09:19:01 - Response: {"piva":null,"ragsoc":null,"commerciale":null,"servizi":null}
